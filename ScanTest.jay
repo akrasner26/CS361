@@ -1,0 +1,92 @@
+// Comment
+
+// keywords 
+boolean // keyword
+else // keyword
+if // keyword
+void // keyword
+int // keyword
+main // keyword
+while // keyword
+
+// separators
+(  // separator
+) // separator
+{ // separator
+} // separator
+; // separator
+, // separator
+
+// operators
+= //operator
++ //operator
+- //operator
+* //operator
+/ //operator
+< //operator
+<= //operator
+> //operator
+>= //operator
+== //operator
+!= //operator
+&& //operator
+|| //operator
+! //operator
+
+// literals
+true // literal
+false // literal
+0 // literal
+01 // literal
+10 // literal
+110 // literal
+35 // literal
+359687 // literal
+
+
+// identifiers
+aaaaa //identifier
+abc // identifier
+DEF // identifier
+GhI // identifier
+H43 // identifier
+h453dee // identifier
+then // identifier
+do // identifier
+
+ // comment
+
+// tricky code
+1==2 // literal operator (==) literal
+1!2 // literal operator literal
+1!=2 // literal operator (!=) literal
+1!==3 // literal operator (!=) operator(=) literal
+1==>4 // literal operator (==) operator(>) literal
+x-- // identifier operator (-) operator (-)
+<> // operator operator
+=< // operator (=) operator (<)
+** // operator operator
+>== // operator (>=) operator (=)
+(b/a) // separator identifier operator identifier separator
+mainnnnn // identifier
+main nnnn // keyword identifier
+4 a // literal identifier
+mainwhile // identifier
+
+// lexical errors
+[ // lexical error
+] // lexical error
+~ // lexical error
+\ // lexical error
+$ // lexical error
+% // lexical error
+# // lexical error
+& // lexical error
+@ // lexical error
+& // lexical error
+3aaa2!=44444 // lexical error for 3aaa2
+| // lexical error
+5a=2b // lexical error
+
+
+
